@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rizwan Motors | Login</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+
+<body>
+
+
+<div class="page">
+
+
+    <!-- =========================================
+         LEFT SIDE - WELCOME SECTION
+    ========================================== -->
+
+    <div class="welcome-section">
+
+        <div class="overlay"></div>
+
+
+        <div class="welcome-content">
+
+
+            <!-- LOGO -->
+
+            <div class="logo">
+
+                <span class="logo-icon"></span>
+
+                <span>
+                    RIZWAN <b>MOTORS</b>
+                </span>
+
+            </div>
+
+
+            <!-- TAGLINE -->
+
+            <p class="tagline">
+                RIDE YOUR DREAMS
+            </p>
+
+
+            <!-- MAIN HEADING -->
+
+            <h1>
+
+                Your Journey<br>
+
+                <span>Starts Here.</span>
+
+            </h1>
+
+
+            <!-- DESCRIPTION -->
+
+            <p class="description">
+
+                Manage vehicles, spare parts, sales and inventory
+                with ease through Rizwan Motors.
+
+            </p>
+
+
+            <!-- FEATURES -->
+
+            <div class="features">
+
+
+                <!-- FEATURE 1 -->
+
+                <div class="feature">
+
+                    <span>✓</span>
+
+                    <p>
+                        Trusted<br>
+                        Dealership
+                    </p>
+
+                </div>
+
+
+                <!-- FEATURE 2 -->
+
+                <div class="feature">
+
+                    <span>✓</span>
+
+                    <p>
+                        Genuine<br>
+                        Spare Parts
+                    </p>
+
+                </div>
+
+
+                <!-- FEATURE 3 -->
+
+                <div class="feature">
+
+                    <span>✓</span>
+
+                    <p>
+                        Easy<br>
+                        Management
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+            <!-- RIDE TEXT -->
+
+            <div class="ride-text">
+
+                Ride Your Dreams
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =========================================
+         RIGHT SIDE - LOGIN SECTION
+    ========================================== -->
+
+    <div class="login-section">
+
+
+        <div class="login-box">
+
+
+            <!-- MOBILE LOGO -->
+
+            <div class="mobile-logo">
+
+                🏍️ RIZWAN MOTORS
+
+            </div>
+
+
+            <!-- LOGIN ICON -->
+
+            <div class="login-icon">
+
+                🏍️
+
+            </div>
+
+
+            <!-- LOGIN TITLE -->
+
+            <h2>
+
+                Welcome Back!
+
+            </h2>
+
+
+            <!-- LOGIN SUBTITLE -->
+
+            <p class="login-subtitle">
+
+                Login to continue to your account
+
+            </p>
+
+
+
+            <!-- =================================
+                 LOGIN FORM
+            ================================== -->
+
+            <form method="POST">
+
+
+                <!-- EMAIL -->
+
+                <div class="input-group">
+
+                    <label>
+                        Email Address
+                    </label>
+
+
+                    <div class="input-wrapper">
+
+                        <span class="input-icon">
+                            ✉
+                        </span>
+
+
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- PASSWORD -->
+
+                <div class="input-group">
+
+                    <label>
+                        Password
+                    </label>
+
+
+                    <div class="input-wrapper">
+
+                        <span class="input-icon">
+                            🔒
+                        </span>
+
+
+                        <input
+                            type="password"
+                            name="password"
+                            placeholder="Enter your password"
+                            required>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- ROLE -->
+
+                <div class="input-group">
+
+                    <label>
+                        Login As
+                    </label>
+
+
+                    <div class="input-wrapper">
+
+                        <span class="input-icon">
+                            👤
+                        </span>
+
+
+                        <select
+                            name="role"
+                            required>
+
+
+                            <option value="">
+                                Select your role
+                            </option>
+
+
+                            <option value="admin">
+                                Admin
+                            </option>
+
+
+                            <option value="customer">
+                                Customer
+                            </option>
+
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- LOGIN BUTTON -->
+
+                <button type="submit">
+
+                    LOGIN
+
+                    <span>
+                        →
+                    </span>
+
+                </button>
+
+
+            </form>
+
+
+
+            <!-- FOOTER -->
+
+            <p class="bottom-text">
+
+                Vehicle Sales
+                •
+                Spare Parts
+                •
+                Inventory Management
+
+            </p>
+
+
+        </div>
+
+    </div>
+
+
+</div>
+
+
+</body>
+
+</html>
